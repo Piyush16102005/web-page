@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ms. Pooja Appaso Vachkal's Classroom</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #e0f7fa, #f0f4ff);
+      color: #333;
+    }
+
+    header {
+      background: #007acc;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 4px solid #005a99;
+    }
+
+    .header-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile-photo {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    nav {
+      background-color: #005a99;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 10px 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 12px;
+      transition: background 0.3s, color 0.3s;
+      border-radius: 5px;
+    }
+
+    nav ul li a:hover {
+      background-color: #ffdd57;
+      color: #000;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 850px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 0.6s ease;
+    }
+
+    .container h2 {
+      color: #007acc;
+      margin-bottom: 15px;
+      font-size: 24px;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 5px;
+    }
+
+    .container ul {
+      padding-left: 20px;
+    }
+
+    .container ul li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #005a99;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .publication-img {
+      width: 100%;
+      max-width: 600px;
+      margin-top: 15px;
+      border: 3px solid #ccc;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .publication-img:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      background: #007acc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    .certificate-box {
+        background-color: #f8faff;
+        border: 2px dashed #007acc;
+        padding: 20px;
+        border-radius: 12px;
+        margin-top: 25px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 122, 204, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .certificate-box h3 {
+        color: #007acc;
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .certificate-box:hover {
+        transform: scale(1.01);
+    }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-wrapper">
+      <img src="fff.png.jpg" alt="Ms. Pooja Vachkal" class="profile-photo">
+      <h1>Ms. Pooja Appaso Vachkal</h1>
+      <h3>Department of Computer Engineering</h3>
+      <p class="subtitle">Faculty | OOP & CG | M.E. in Computer</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#subjects">Subjects</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#teaching-approach">Teaching</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#publication">Publication</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" class="container">
+      <h2>👩‍🏫 About Me</h2>
+      <p>Hello! I'm Ms. Pooja Appaso Vachkal. I believe in building a classroom full of energy, curiosity, and creativity. I am self-confident, love learning, and enjoy life's little joys with a smile.</p>
+    </section>
+
+    <section id="subjects" class="container">
+      <h2>📚 Subjects Taught</h2>
+      <ul>
+        <li>Object-Oriented Programming (OOP) in Java</li>
+        <li>Computer Graphics (CG) in Java</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>🔬 Project</h2>
+      <p><strong>Skin Cancer Classification using CNN</strong> — An AI-powered healthcare project using Convolutional Neural Networks to classify skin cancer, aiding early diagnosis and treatment.</p>
+    </section>
+
+    <section id="experience" class="container">
+      <h2>💼 Experience & Education</h2>
+      <p><strong>Total Experience:</strong> 3 Years</p>
+      <p><strong>Teaching:</strong> 2.5 Years</p>
+      <p><strong>Education:</strong> M.E. in Computer Engineering</p>
+    </section>
+
+    <section id="teaching-approach" class="container">
+      <h2>📖 Teaching Approach</h2>
+      <p>I simplify complex topics through interactive lectures, hands-on coding, real-world examples, and visual explanations. I believe in building practical understanding, especially in Java OOP and CG.</p>
+    </section>
+
+    <section id="resources" class="container">
+      <h2>📁 Class Resources</h2>
+      <ul>
+        <li><a href="#">📄 Syllabus [PDF]</a></li>
+        <li><a href="#">📝 Assignment Guidelines</a></li>
+        <li><a href="#">🌐 External Learning Links</a></li>
+      </ul>
+    </section>
+
+    <section id="publication" class="container">
+      <h2>📁 Publication</h2>
+      <p><strong>Title:</strong> Skin Care Disease Detection Using Machine Learning and Chatbot</p>
+      <p><strong>Published In:</strong> Journal of Emerging Technologies and Innovative Research (JETIR)</p>
+      <p><strong>ISSN:</strong> 2349-5162 | <strong>Impact Factor:</strong> 7.95</p>
+      <p><strong>Volume:</strong> 12, Issue 4 | <strong>Date:</strong> April 22, 2025</p>
+      <p><strong>Weblink:</strong>
+        <a href="https://www.jetir.org/view?paper=JETIR2504836" target="_blank">
+          View Research Paper
+        </a>
+      </p>
+      <section class="certificate-box">
+        <h3>🖼️ Certificate Preview</h3>
+        <a href="public.png.jpg" target="_blank">
+            <img src="WhatsApp%20Image%202025-07-22%20at%2015.38.37_a2841ea9.jpg" 
+                 alt="Skin Care Detection Publication Certificate"
+                 class="publication-img">
+        </a>
+    </section>
+      
+    </section>
+    
+
+
+    <section id="contact" class="container">
+      <h2>📬 Contact</h2>
+      <p>Have a question or need help? Reach out anytime.</p>
+      <p>Email: <a href="mailto:pooja.vachkal@example.com">pooja.vachkal@example.com</a></p>
+      <p>Office Hours: 8:30 AM – 4:30 PM</p>
+    </section>
+
+
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ms. Pooja Appaso Vachkal. Designed with ❤️</p>
+  </footer>
+</body>
+</html>

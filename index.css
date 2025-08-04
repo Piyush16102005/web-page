@@ -1,0 +1,183 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+img{
+    height: 100px;
+    width: 100px;
+    padding: 1rem;
+    margin: 1;
+    padding-right: 2rem;
+}
+/* Header Styles */
+header {
+    background-color: #2c3e50; /* Dark blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* .header-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.center-text {
+    padding: 1rem;
+}
+
+.profile-photo {
+    position: absolute;
+    top: 50%;
+    right: 20rem;
+    transform: translateY(-50%);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1abc9c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin: 0;
+    background: none;
+} */
+
+nav {
+    background-color: #34495e; /* Slightly lighter dark blue */
+    padding: 0.75rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1abc9c; /* Turquoise */
+}
+
+/* Main Content Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Links within content */
+a {
+    color: #3498db; /* Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Announcement Specific Styles */
+.announcement-item { /* This style is now unused */
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #1abc9c;
+    border-radius: 4px;
+}
+
+.announcement-item h3 { /* This style is now unused */
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+/* Button Styles (for Thought for the Day) */
+button { /* This style is now unused */
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover { /* This style is now unused */
+    background-color: #16a085;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #2c3e50;
+    color: #fff;
+    margin-top: 30px;
+}
+.header-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.center-text {
+    padding: 1rem;
+}
+
+.profile-photo {
+    position: absolute;
+    top: 50%;
+    right: 15rem;
+    transform: translateY(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1abc9c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    left: 28rem;
+    margin: 0;
+    background: none;
+}
+.container {
+    width: 90%; /* Better than width: 800px */
+    max-width: 1200px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
